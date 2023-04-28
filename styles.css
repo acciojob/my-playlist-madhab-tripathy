@@ -3,7 +3,7 @@ body{
 	background-color:#cccccc;
 	display:flex;
 	flex-direction:column;
-	ju
+	justify-content:center;
 }
 h1,h2,h3{
 	text-align:center;
@@ -12,7 +12,9 @@ h1,h2,h3{
 	background-color:white;
 	display:flex;
 	flex-direction:column;
-	padding:10px;
+}
+.player_one ul{
+	list-style-type:none;
 }
 .player_one a{
 	text-decoration:none;
