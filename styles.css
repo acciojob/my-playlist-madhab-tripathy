@@ -1,9 +1,11 @@
 /*  your css code here. If applicable */
 body{
 	background-color:#cccccc;
-	
+	display:flex;
+	flex-direction:column;
+	ju
 }
-h1{
+h1,h2,h3{
 	text-align:center;
 }
 .player_one{
@@ -17,6 +19,12 @@ h1{
 	color:black;
 }
 .player_two{
-	height:300px;
+	justify-content:center;
+	align-item:center;
+	padding:0px 10px 10px;
+	height:400px;
+	width:350px;
 	background-color:#fff;
+	display:flex;
+	flex-direction:column;
 }
