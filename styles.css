@@ -1,6 +1,10 @@
 /*  your css code here. If applicable */
 body{
-	background-color:#cccccc
+	background-color:#cccccc;
+	
+}
+h1{
+	text-align:center;
 }
 .player_one{
 	background-color:white;
@@ -11,4 +15,8 @@ body{
 .player_one a{
 	text-decoration:none;
 	color:black;
+}
+.player_two{
+	height:300px;
+	background-color:#fff;
 }
